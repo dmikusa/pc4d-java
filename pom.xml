@@ -15,6 +15,7 @@
 		<module>verify</module>
 		<module>hash</module>
         <module>pkencrypt</module>
+        <module>pkdecrypt</module>
 	</modules>
 
 	<properties>

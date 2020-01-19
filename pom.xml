@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.mikusa</groupId>
+	<artifactId>pc4d-java</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Practical Cryptography for Developers (Java)</name>
+	<description>A set of demo applications using basic cryptography and libsodium</description>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>encrypt</module>
+		<module>decrypt</module>
+		<module>auth</module>
+		<module>verify</module>
+		<module>hash</module>
+	</modules>
+
+	<properties>
+		<java.version>11</java.version>
+		<graalvm.version>19.3.1</graalvm.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.goterl.lazycode</groupId>
+			<artifactId>lazysodium-java</artifactId>
+			<version>4.2.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.java.dev.jna</groupId>
+			<artifactId>jna</artifactId>
+			<version>5.5.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.14</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<repositories>
+		<repository>
+			<id>jcenter</id>
+			<url>https://jcenter.bintray.com/</url>
+		</repository>
+	</repositories>
+
+</project>

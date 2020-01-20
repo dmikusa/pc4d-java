@@ -15,7 +15,7 @@ This is inspired by:
 
  - [aeden/pc4d-go](https://github.com/aeden/pc4d-go)
  - [aeden/pc4d-ruby](https://github.com/aeden/pc4d-ruby)
- - [dmikusa/pc4d-python(https://github.com/dmikusa/pc4d-python)
+ - [dmikusa/pc4d-python](https://github.com/dmikusa/pc4d-python)
 
 ## Examples
 

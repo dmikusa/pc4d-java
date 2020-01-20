@@ -28,7 +28,7 @@
 						<configuration>
 							<archive>
 								<manifest>
-									<mainClass>com.mikusa.pc4djava.Verity</mainClass>
+									<mainClass>com.mikusa.pc4djava.Verify</mainClass>
 								</manifest>
 							</archive>
 							<descriptorRefs>

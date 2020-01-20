@@ -16,6 +16,8 @@
 		<module>hash</module>
         <module>pkencrypt</module>
         <module>pkdecrypt</module>
+        <module>pksign</module>
+        <module>pkverify</module>
 	</modules>
 
 	<properties>

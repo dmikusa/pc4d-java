@@ -19,6 +19,7 @@ This is inspired by:
 See also:
 
  - [dmikusa/pc4d-python](https://github.com/dmikusa/pc4d-python)
+ - [dmikusa/pc4d-rust](https://github.com/dmikusa/pc4d-rust)
 
 ## Examples
 
